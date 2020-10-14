@@ -5,4 +5,4 @@ This repository contains my solutions for problems and implementation of Data St
 2. [Find Length of a Linked List ](count.py)
 3. [Delete node of a linked list](delete.py)
 4. [Search an element in linked list](search.py)
-5. [Get nth node in linked list](get_node.py)
+5. [Get nth node of linked list](get_node.py)
