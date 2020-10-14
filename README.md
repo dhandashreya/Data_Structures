@@ -4,3 +4,4 @@ This repository contains my solutions for problems and implementation of Data St
 1. [Implementation of Singly Linked List](singly_ll.py)
 2. [Find Length of a Linked List (Iterative and Recursive)](count.py)
 3. [Delete node of a linked list](delete.py)
+4. [Search an element in linked list(Iterative and Recursive)](search.py)
