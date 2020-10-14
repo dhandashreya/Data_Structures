@@ -52,7 +52,6 @@ if __name__ == "__main__":
     li.push(2)
     li.push(3)
     li.push(4)
-    key = 2
     print("Getting nth node iteratively: - ")
     li.get_iter(2)
     print("Getting nth node recursively: - ")
