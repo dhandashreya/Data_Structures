@@ -72,8 +72,6 @@ class LList:
             while temp:
                 print(temp.data, end=" ")
                 temp = temp.next
-        else:
-            print("Empty list")
 
 
 if __name__ == "__main__":
