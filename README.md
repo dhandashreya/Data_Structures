@@ -6,3 +6,4 @@ This repository contains my solutions for problems and implementation of Data St
 3. [Delete node of a linked list](https://github.com/dhandashreya/Data_Structures_python/blob/master/Linked%20list/delete.py)
 4. [Search an element in linked list](https://github.com/dhandashreya/Data_Structures_python/blob/master/Linked%20list/search.py)
 5. [Get nth node of linked list](https://github.com/dhandashreya/Data_Structures_python/blob/master/Linked%20list/get_node.py)
+6. [Function to count the occurrences of given key in a linked list](https://github.com/dhandashreya/Data_Structures_python/blob/master/Linked%20list/count_key.py)
