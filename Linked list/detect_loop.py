@@ -61,7 +61,7 @@ if __name__ == "__main__":
     my_linked_list.push(1)
     my_linked_list.push(2)
     my_linked_list.push(4)
-    my_linked_list.head.next.next= my_linked_list.head
+    my_linked_list.head.next.next = my_linked_list.head
     print("Detecting loop using method 1")
     if my_linked_list.detect_loop_one():
         print("Loop Exists")
