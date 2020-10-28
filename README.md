@@ -9,4 +9,4 @@ This repository contains my solutions for problems and implementation of Data St
 6. Function to count the occurrences of given key in a linked list [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/count_key.py)
 7. Detect loop in a linked list [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/detect_loop.py)
 8. Find the middle element of linked list [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/middle_ele.py)
-9. Function to check if linked list is palindrome [python] (https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/palindrome.py)
+9. Function to check if linked list is palindrome [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/palindrome.py)
