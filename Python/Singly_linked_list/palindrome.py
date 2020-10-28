@@ -4,39 +4,46 @@ class Node:
         self.next = None
 
 
-# determining whether a list is palindrome by using stack
-def palindrome(head):
-    temp = head
-    # declaring a stack
-    stack = []
-    is_palindrome = True
-    while temp is not None:
-        stack.append(temp.data)  # pushing all elements to stack
-        temp = temp.next
-    while head is not None:
-        i = stack.pop()  # getting the top most element
-        if head.data != i:
-            is_palindrome = False
-            break
-        head = head.next
-    return is_palindrome
+class LList:
+    def __init__(self):
+        self.head = None
+
+    # method to add a node in the beginning of the linked list
+    def push(self, new_data):
+        new_node = Node(new_data)  # new node is created and data is given to it
+        # when linked is empty
+        if self.head is None:
+            self.head = new_node
+        # when linked list is non empty
+        else:
+            new_node.next = self.head  # new node's next point to head
+            self.head = new_node   # head points to new node
+
+    # determining whether a list is palindrome by using stack
+    def palindrome(self, head):
+        temp = head
+        # declaring a stack
+        stack = []
+        is_palindrome = True
+        while temp is not None:
+            stack.append(temp.data)  # pushing all elements to stack
+            temp = temp.next
+        while head is not None:
+            i = stack.pop()  # getting the top most element
+            if head.data != i:
+                is_palindrome = False
+                break
+            head = head.next
+        return is_palindrome
 
 
 if __name__ == "__main__":
-    one = Node(1)
-    two = Node(2)
-    three = Node(3)
-    four = Node(4)
-    five = Node(3)
-    six = Node(2)
-    seven = Node(1)
-
-    one.next = two
-    two.next = three
-    three.next = four
-    four.next = five
-    five.next = six
-    six.next = seven
-
-    result = palindrome(one)
-    print("Is linked list a palindrome:", result)
+    my_linked_list = LList()
+    my_linked_list.push(1)
+    my_linked_list.push(2)
+    my_linked_list.push(3)
+    my_linked_list.push(4)
+    my_linked_list.push(3)
+    my_linked_list.push(2)
+    my_linked_list.push(1)
+    print("Is my linked list a palindrome", my_linked_list.palindrome(my_linked_list.head))
