@@ -1,7 +1,7 @@
 # Data_Structures
 This repository contains my solutions for problems and implementation of Data Structures in Python, C and C++.
 ## Linked List
-1. [Implementation of Singly Linked List](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/singly_ll.py)
+1. Implementation of Singly Linked List[python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/singly_ll.py)
 2. [Find Length of a Linked List ](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/count.py)
 3. [Delete node of a linked list](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/delete.py)
 4. [Search an element in linked list](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/search.py)
