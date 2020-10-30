@@ -40,6 +40,30 @@ class LList:
                         temp.next = new_node
                         break
 
+    # method to add a node before a given key
+    def add_before_key(self, new_data):
+        new_node = Node(new_data)
+        # when list is empty
+        if self.head is None:
+            self.head = new_node
+        else:
+            key = int(input("Enter key:-"))
+            temp = self.head
+            ptr = temp.next
+            if temp.data == key:
+                new_node.next = temp
+                self.head = new_node
+            while ptr:
+                if ptr.data == key:
+                    temp.next = new_node
+                    new_node.next = ptr
+                    break
+                else:
+                    temp = ptr
+                    ptr = ptr.next
+            if ptr is None:
+                temp.next = new_node
+
     # method to add a node at the end of the linked list
     def append(self, new_data):
         new_node = Node(new_data)  # new node is created and data is given to it
@@ -67,8 +91,9 @@ if __name__ == "__main__":
     print("Press the following to perform the respective operations on linked list: -")
     print("1 : To add a node in the beginning ")
     print("2 : To add a node after a given key")
-    print("3 : To add a node at the end")
-    print("4 : To print the linked list")
+    print("3 : To add a node before a given key")
+    print("4 : To add a node at the end")
+    print("5 : To print the linked list")
     print("-1 : To stop")
     user_choice = int(input("Enter your choice:-"))
     while user_choice != -1:
@@ -77,8 +102,10 @@ if __name__ == "__main__":
         elif user_choice == 2:
             my_linked_list.add_after_key(int(input("Enter data:-")))
         elif user_choice == 3:
-            my_linked_list.append(int(input("Enter data:-")))
+            my_linked_list.add_before_key(int(input("Enter data:-")))
         elif user_choice == 4:
+            my_linked_list.append(int(input("Enter data:-")))
+        elif user_choice == 5:
             my_linked_list.print_list()
         print()
         user_choice = int(input("Enter your choice:-"))
