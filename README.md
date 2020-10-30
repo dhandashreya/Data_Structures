@@ -10,3 +10,6 @@ This repository contains my solutions for problems and implementation of Data St
 7. Detect loop in a linked list [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/detect_loop.py)
 8. Find the middle element of linked list [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/middle_ele.py)
 9. Function to check if linked list is palindrome [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/palindrome.py)
+
+## Doubly Linked List
+1. Implementation of Doubly Linked List [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Doubly_linked_list/doubly_ll.py)
