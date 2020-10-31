@@ -63,6 +63,7 @@ class LList:
                 ctr = temp.next
                 del temp.data
                 temp = ctr
+        self.head = None        
 
     # method to print the linked list
     def print_list(self):
@@ -72,6 +73,8 @@ class LList:
             while temp:
                 print(temp.data, end=" ")
                 temp = temp.next
+        else:
+            print("Empty singly linked list")
 
 
 if __name__ == "__main__":
