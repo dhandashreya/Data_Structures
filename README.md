@@ -1,7 +1,7 @@
 # Data_Structures
 This repository contains my solutions for problems and implementation of Data Structures in Python, C and C++.
 ## Array
-1. Array rotation [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Array/array_rotation.py)
+1. Array rotation [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Array/array_rotation.py), [C](https://github.com/dhandashreya/Data_Structures/blob/master/C/Array/array_rotation.c)
 ## Singly Linked List
 1. Implementation of Singly Linked List [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/singly_ll.py)
 2. Find Length of a Linked List  [python](https://github.com/dhandashreya/Data_Structures/blob/master/Python/Singly_linked_list/count.py)
