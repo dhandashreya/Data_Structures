@@ -55,7 +55,7 @@ a = [1, 2, 3, 4, 5, 6, 7]
 r = 2
 length = len(a)
 print("Rotating list using method one",rotate_one(a, length, r))
-# original list is [3, 4, 5, 6, 7, 1, 2]
+# Now, original list is [3, 4, 5, 6, 7, 1, 2]
 print("Rotating list using method two",left_rotate(a, length, r))
-# original list is [5, 6, 7, 1, 2, 3, 4]
+# Now, original list is [5, 6, 7, 1, 2, 3, 4]
 print("Rotating list using reversal algorithm", rotate_reverse(a, length, r))
